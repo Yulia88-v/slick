@@ -1,0 +1,313 @@
+
+body{
+	font-family: 'tt_normsregular';
+}
+.page{
+padding:200px 200px 200px 256px;
+}
+/*
+.first img{
+	display: inline-block;
+
+}
+.first h3{
+	display: inline-block;
+
+}
+
+.first p{
+	display: inline-block;
+}
+.*/
+/******slider small*****/
+.img_slider{
+	width: 79px;
+	height: 56px;
+	position: relative;
+	background: #fff;
+    z-index: 40;	
+}
+.img_slider img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 40;
+	background: #fff;
+}
+
+.slick-track{
+	display: flex;
+	align-items: flex-start;
+	vertical-align: middle;
+
+}
+.flex_column{
+	min-width: 0;
+}
+.slider{
+	min-width: 0;
+	position: relative;
+	width: 800px;
+	
+}
+.sliderbig{
+	width: 800px;
+}
+hr{
+	height: 1px;
+	background-color: #14171A;
+	width: 1600px;
+     position: absolute;
+      top: 30%;
+     }
+
+
+.slider_item .img_slider img{
+	text-align: left;
+	opacity: 0.7;	
+	transition: all 1s ease 0s;
+
+}
+
+
+.slider_item p{
+	margin-top: 40px;
+}
+.slick-current.slider_item .img_slider img{
+   opacity:1;
+   transform: scale(1.3);
+}
+
+
+.slick-list{
+	overflow: hidden;
+}
+.slider .slick-arrow{
+	position:absolute;
+	top:5%;
+	z-index: 10;
+	font-size: 0;
+	width: 56px;
+	height:56px;
+	border:none;
+	margin-left: 60px;
+    transition: all 0.5s ease 0s;
+	}
+	
+.slider .slick-arrow:focus,.slider .slick-arrow:active,.slider .slick-arrow:visited,.slick-arrow:hover{
+	outline:auto;
+	border: ;
+}
+.slider .slick-arrow.slick-prev{
+background: url(../img/left.png) 0 0/100% no-repeat;
+right: 57px;
+
+}
+
+.slider .slick-arrow.slick-next{
+background: url(../img/right.png) 0 0/100% no-repeat;
+right: 0;
+}
+
+.slider .slick-arrow.slick-disabled{
+	opacity: 0;
+}
+/*********Slider big****/
+.first .img{
+	float:left;
+}
+.first .img{
+	width: 323px;
+	height: 214px;
+}
+.first .img img{
+	width: 100%;
+	height: 100%;
+}
+.first  h3{
+	font-size: 32px;
+	left: 32px;
+	position: relative;
+	font-weight: 600;
+}
+.first  p{
+left: 32px;
+position: relative;
+line-height: 26px;
+text-align: justify;
+width: 720px;
+}
+.second{
+	margin-top: 150px;
+}
+.second h4{
+	font-size: 20px;
+line-height: 28px;
+color: #14171A;
+}
+.second img{
+	vertical-align: middle;
+margin-left: 8px;
+}
+.second h4:after{
+	 content: "";
+	 display: inline-block;
+    vertical-align: middle;
+    width: 474px;
+    height: 1px;
+    background-color:#E8E8E9;
+    position: relative;
+    margin-right: -100%;
+    right: -14px;
+}
+.second p{
+	font-size: 16px;
+line-height: 26px;
+color: #14171A;
+width: 700px;
+}
+.page .cp{
+position: relative;
+left: 670px;
+top: 60px;
+font-size: 16px;
+color: #14171A;
+opacity: 0.4;
+}
+.page .cp img{
+	vertical-align: middle;
+	margin-left:3px;
+	margin-right: 3px;
+}
+@media (max-width: 1400px){
+	hr{
+	
+      top: 31%;
+     }
+}
+@media (max-width: 1280px){
+	hr{
+	
+      top: 33%;
+     }
+}
+@media (max-width: 1024px){
+	hr{
+	
+      top: 17%;
+     }
+}
+@media (max-width: 834px){
+	hr{
+	
+      top: 21%;
+     }
+}
+@media (max-width: 768px){
+	hr{
+	
+      top: 23%;
+     }
+}
+@media (max-width: 414px){
+	hr{
+      width: 360px;
+      top: 31%;
+     }
+     .slider{
+     	display: none;
+     }
+     .page{
+     	padding:70px 20px 200px 14px;
+
+	overflow: hidden;
+     }
+     .sliderbig{
+     	width: 100%;
+     }
+     .first  h3{
+	font-size: 24px;
+	left: 18px;
+    
+}
+.first  p{
+left: 18px;
+position: relative;
+line-height: 16px;
+text-align: justify;
+
+}
+.second{
+	margin-top: 150px;
+}
+.second {
+margin-top: 15px;
+}
+.second h4 {
+left: 18px;
+position: relative;
+}
+.second h4::after {
+
+width: 65px;
+}
+.slick-list{
+	overflow: hidden;
+}
+.sliderbig_item{
+	margin-left:20px;
+}
+.first p {
+width: 300px;
+line-height: 28px;
+}
+.second p {
+width: 325px;
+left: 18px;
+position: relative;
+}
+
+.page .cp {
+left: 0px;
+top: 700px;
+}
+.content {
+position: relative;
+left: 200px;
+top: 25px;
+}
+.content .slick-arrow{
+	z-index: 10;
+	font-size: 0;
+	width: 56px;
+	height:56px;
+	border:none;
+	
+
+}
+.content .slick-arrow.slick-prev{
+background: url(../img/left.png) 0 0/100% no-repeat;
+right: 60px;
+
+}
+
+.content .slick-arrow.slick-next{
+background: url(../img/right.png) 0 0/100% no-repeat;
+right: 0;
+}
+.content .slick-arrow.slick-disabled{
+	opacity: 0;
+}
+.content .slick-arrow:focus,
+.content .slick-arrow:active,
+.content.slick-arrow:visited,
+.content.slick-arrow:hover{
+	outline:auto;
+	border: ;
+}
+}
+
+
+
+
+
